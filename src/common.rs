@@ -900,7 +900,7 @@ pub fn get_api_server(api: String, custom: String) -> String {
             return format!("http://{}", s);
         }
     }
-    "http://60.12.94.218".to_owned()
+    "http://rustdesk.x-hitech.com".to_owned()
 }
 
 pub fn get_audit_server(api: String, custom: String, typ: String) -> String {
