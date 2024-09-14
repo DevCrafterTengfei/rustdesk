@@ -900,7 +900,7 @@ pub fn get_api_server(api: String, custom: String) -> String {
             return format!("http://{}", s);
         }
     }
-    "http://honeywellwang.mycloudnas.com".to_owned()
+    "http://60.12.94.218".to_owned()
 }
 
 pub fn get_audit_server(api: String, custom: String, typ: String) -> String {
